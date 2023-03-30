@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Magic_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ball_Inactive" translatesAutoresizingMaskIntoConstraints="NO" id="Hgs-fT-4wr">
+                                <rect key="frame" x="62.666666666666657" y="329" width="305" height="274"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Спроси меня " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n6B-fo-Ug9">
+                                <rect key="frame" x="10" y="124" width="410" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HB-r5-xCp">
+                                <rect key="frame" x="122.66666666666669" y="788" width="185" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="9SP-38-TX2"/>
+                                    <constraint firstAttribute="width" constant="185" id="eEB-Cu-Yd4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="и нажми">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" title="и нажми" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="29"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="pressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mue-3p-vyf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hgs-fT-4wr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1WQ-il-ysC"/>
+                            <constraint firstItem="n6B-fo-Ug9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="76H-SN-Ptg"/>
+                            <constraint firstItem="9HB-r5-xCp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BSb-qf-ljF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9HB-r5-xCp" secondAttribute="bottom" constant="50" id="Dcz-GH-e1a"/>
+                            <constraint firstItem="n6B-fo-Ug9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="KRy-uF-X0b"/>
+                            <constraint firstItem="Hgs-fT-4wr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OK4-gG-y7E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n6B-fo-Ug9" secondAttribute="trailing" constant="10" id="mzg-dr-Tzd"/>
+                            <constraint firstItem="n6B-fo-Ug9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4l-1e-8Ie"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="viewAnsver" destination="Hgs-fT-4wr" id="j0x-kt-mGw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ball_Inactive" width="305" height="273.66665649414062"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
