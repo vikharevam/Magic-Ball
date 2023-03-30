@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		955F041429D59AF400B1B9C2 /* Magic Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955F041429D59AF400B1B9C2 /* Ask me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ask me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		955F041729D59AF400B1B9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		955F041929D59AF400B1B9C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		955F041B29D59AF400B1B9C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		955F041529D59AF400B1B9C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				955F041429D59AF400B1B9C2 /* Magic Ball.app */,
+				955F041429D59AF400B1B9C2 /* Ask me.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		955F041329D59AF400B1B9C2 /* Magic Ball */ = {
+		955F041329D59AF400B1B9C2 /* Ask me */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 955F042829D59AF800B1B9C2 /* Build configuration list for PBXNativeTarget "Magic Ball" */;
+			buildConfigurationList = 955F042829D59AF800B1B9C2 /* Build configuration list for PBXNativeTarget "Ask me" */;
 			buildPhases = (
 				955F041029D59AF400B1B9C2 /* Sources */,
 				955F041129D59AF400B1B9C2 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Magic Ball";
+			name = "Ask me";
 			productName = "Magic Ball";
-			productReference = 955F041429D59AF400B1B9C2 /* Magic Ball.app */;
+			productReference = 955F041429D59AF400B1B9C2 /* Ask me.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 955F040F29D59AF400B1B9C2 /* Build configuration list for PBXProject "Magic Ball" */;
+			buildConfigurationList = 955F040F29D59AF400B1B9C2 /* Build configuration list for PBXProject "Ask me" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				955F041329D59AF400B1B9C2 /* Magic Ball */,
+				955F041329D59AF400B1B9C2 /* Ask me */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsandervikharev.Magic-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsandervikharev.ask-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -333,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsandervikharev.Magic-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsandervikharev.ask-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		955F040F29D59AF400B1B9C2 /* Build configuration list for PBXProject "Magic Ball" */ = {
+		955F040F29D59AF400B1B9C2 /* Build configuration list for PBXProject "Ask me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				955F042629D59AF800B1B9C2 /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		955F042829D59AF800B1B9C2 /* Build configuration list for PBXNativeTarget "Magic Ball" */ = {
+		955F042829D59AF800B1B9C2 /* Build configuration list for PBXNativeTarget "Ask me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				955F042929D59AF800B1B9C2 /* Debug */,
