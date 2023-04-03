@@ -6,6 +6,7 @@
 //
 
 import UIKit
+//import AudioToolbox
 
 class ViewController: UIViewController {
     
@@ -29,10 +30,13 @@ class ViewController: UIViewController {
         
         viewAnsver.image = ballAnswerArray.randomElement()
         
+        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
     }
-      
+    
     override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         viewAnsver.image = UIImage(named: "Ball_Inactive")
+
+//        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
     }
     
 }
